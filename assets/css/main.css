@@ -3713,6 +3713,10 @@ a {
   .image {
     max-width: 100%;
   }
+
+  .border-mov {
+    background-color: #343434;
+  }
 }
 @media only screen and (min-width: 768px) {
   .col-md-custom {
