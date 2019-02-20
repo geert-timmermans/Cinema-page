@@ -4,6 +4,10 @@
   @include img-size();
 }
 
+.header-width{
+  max-width: 100%;
+}
+
 header a {
   text-decoration: none;
   @include padding-nav-header();
@@ -15,10 +19,6 @@ ul {
   li {
     list-style-type: none;
   }
-}
-
-.font-size-navbar-header {
-  font-size: 1.5em;
 }
 
 .jumbotron {
@@ -53,31 +53,13 @@ h1 {
   }
 }
 
-.offset-article {
-  margin-left: 24%;
-  margin-top: $margin-article-aside;
-}
 
-.col-md-5-custom {
-  max-width: 47%;
-}
 
 aside {
   text-align: center;
 }
 
-.col-md-custom {
-  width: 17.4%;
-}
 
-.offset-md-custom {
-  margin-left: 11.6%;
-  margin-top: 0;
-}
-
-.border-img {
-  max-width: 80%;
-}
 
 .border-bottom-aside {
   h5 {
@@ -89,12 +71,9 @@ aside {
   }
 }
 
-.offset-footer-custom {
-  margin-left: 21.5%;
-}
-
 footer li,
 a {
   text-decoration: none;
   @include padding-nav-footer();
 }
+

@@ -3586,6 +3586,10 @@ footer li, a {
   padding: 0;
 }
 
+.header-width {
+  max-width: 100%;
+}
+
 header a {
   text-decoration: none;
   padding: 0.5em 0.5em;
@@ -3596,10 +3600,6 @@ ul {
 }
 ul li {
   list-style-type: none;
-}
-
-.font-size-navbar-header {
-  font-size: 1.5em;
 }
 
 .jumbotron {
@@ -3633,30 +3633,8 @@ h1 .euroscoop-genk {
   font-weight: 100;
 }
 
-.offset-article {
-  margin-left: 24%;
-  margin-top: 15.6%;
-}
-
-.col-md-5-custom {
-  max-width: 47%;
-}
-
 aside {
   text-align: center;
-}
-
-.col-md-custom {
-  width: 17.4%;
-}
-
-.offset-md-custom {
-  margin-left: 11.6%;
-  margin-top: 0;
-}
-
-.border-img {
-  max-width: 80%;
 }
 
 .border-bottom-aside h5 {
@@ -3665,10 +3643,6 @@ aside {
 }
 .border-bottom-aside h6 {
   font-size: 1em;
-}
-
-.offset-footer-custom {
-  margin-left: 21.5%;
 }
 
 footer li,
@@ -3711,6 +3685,61 @@ a {
 }
 .hover-text a {
   padding: 16px 32px;
+}
+
+@media only screen and (max-width: 767px) {
+  * {
+    font-size: 0.9em;
+  }
+
+  .border-img {
+    max-width: 90%;
+  }
+
+  body .jumbotron {
+    background-image: none;
+  }
+
+  .col-md-5-custom {
+    width: 100%;
+    margin: 0;
+  }
+
+  .col-md-custom {
+    width: 100%;
+    margin: auto;
+  }
+
+  .image {
+    max-width: 100%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .col-md-custom {
+    width: 17.4%;
+  }
+
+  .offset-md-custom {
+    margin-left: 11.6%;
+    margin-top: 0;
+  }
+
+  .border-img {
+    max-width: 80%;
+  }
+
+  .offset-footer-custom {
+    margin-left: 21.5%;
+  }
+
+  .col-md-5-custom {
+    max-width: 47%;
+  }
+
+  .offset-article {
+    margin-left: 24%;
+    margin-top: 15.6%;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

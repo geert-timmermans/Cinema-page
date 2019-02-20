@@ -1,0 +1,55 @@
+//media-queries are build-in in grid.scss
+//additional media-queries for self created classes
+
+
+
+@media only screen and (max-width: 767px){
+    *{
+        font-size: 0.9em;
+    }
+    .border-img {
+        max-width: 90%;
+      }
+    body{
+        .jumbotron {
+        background-image: none;
+        }
+    }
+    .col-md-5-custom{
+        width: 100%;
+        margin: 0;
+        
+    }
+    .col-md-custom{
+        width: 100%;
+        margin: auto;
+    }
+    .image{
+        max-width: 100%;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    
+    .col-md-custom{
+        width: 17.4%;
+    }
+    .offset-md-custom{
+        margin-left: 11.6%;
+        margin-top: 0;
+    }
+    .border-img {
+        max-width: 80%;
+    }
+    .offset-footer-custom {
+        margin-left: 21.5%;
+    }
+    .col-md-5-custom {
+        max-width: 47%;
+      }
+      .offset-article {
+        margin-left: 24%;
+        margin-top: $margin-article-aside;
+      }
+      
+}
