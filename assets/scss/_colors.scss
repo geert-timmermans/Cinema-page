@@ -1,0 +1,58 @@
+body {
+  background-color: $body-bgc;
+}
+
+header,
+footer {
+  background-color: $header-footer-bgc;
+}
+
+header a {
+  color: $text-color;
+}
+
+ul {
+  li {
+    a:hover {
+      color: $hover-color;
+    }
+  }
+}
+
+.jumbotron {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
+    url(../../images/jumbotron4.jpg);
+}
+
+h1 {
+  color: $article-color;
+  .euroscoop-genk {
+    color: $article-color2;
+  }
+}
+
+.border-mov{
+    background-color: $movie-bgc;
+}
+
+.border-aside{
+    background-color: $aside-bgc;
+    color: $article-color;
+}
+
+.hover-text{
+    background-color: $hover-color-btn;
+    a{
+      color: $hover-color;
+    }
+}
+
+.border-bottom-aside{
+    h5{
+        color: $aside-h5-color;
+    }
+}
+
+footer li,a{
+    color: $text-color;
+}

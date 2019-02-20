@@ -1,0 +1,15 @@
+//mixins for all te scss files
+
+@mixin img-size(){
+    height: auto;
+    width: 100%;
+    padding: 0;
+}
+
+@mixin padding-nav-header(){
+    padding: 0.5em 0.5em;
+}
+
+@mixin padding-nav-footer(){
+    padding: 1em 1em;
+}

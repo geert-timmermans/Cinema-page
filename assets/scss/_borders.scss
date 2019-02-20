@@ -1,0 +1,13 @@
+// borders for all scss files
+
+.border-mov, .border-aside {
+    border: $border-article;
+  }
+
+.border-img{
+    border: $border-img;
+}
+
+.border-bottom-aside {
+    border-bottom: $border-bottom-aside;
+}
