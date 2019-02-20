@@ -1,6 +1,6 @@
 
 [Opdracht](https://github.com/geert-timmermans/cinema-page/blob/master/opdracht.md)  
-[Cinema-page](https://geert.timmermans.github.io/cinema-page)  
+[Cinema-page](https://geert-timmermans.github.io/Cinema-page/)  
 start-date: 19-02-2019  
 end-date: 20-02-2019  
   
