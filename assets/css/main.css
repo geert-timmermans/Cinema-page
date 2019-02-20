@@ -3663,19 +3663,21 @@ a {
 
 .image {
   opacity: 1;
+  display: block;
   transition: 0.5s ease;
   backface-visibility: hidden;
 }
 
 .middle {
   transition: 0.5s ease;
-  opacity: 0;
+  display: none;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
+  display: none;
 }
 
 .hover-img {
@@ -3687,6 +3689,7 @@ a {
 }
 .hover-img:hover .middle {
   opacity: 1;
+  display: block;
 }
 
 .hover-text {
